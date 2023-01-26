@@ -167,13 +167,11 @@ footer li {
     list-style: none;
     color: #1a1618;
 }
-footer h3 {
-    text-align: center;
-}
 
 .social-network i {
     font-size: 160%;
     color: #1a1618;;
 }
-
+.social-icons {
+    color: #362e32;
 }
