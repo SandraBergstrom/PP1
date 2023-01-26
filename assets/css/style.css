@@ -33,7 +33,7 @@ header a {
 }
 .logo {
     flex: 1;
-    font-size: 1.2rem;
+    font-size: 120%";
 }
 .navigation {
     flex: 1;
@@ -63,4 +63,24 @@ header a {
     height: 750px;
     width: 100%;
     background: url(../images/background1.webp) no-repeat center center;
+
+#hero-outer {
+    position: relative;
+}
+}
+#txt-hair-talk h3 {
+    font-family: Lora, sans-serif;
+    font-weight: 100;
+    font-size: 170%;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgb(172 64 106 / 70%);
+    width: 250px;
+    height: auto;
+    padding: 20px 20px 20px 100px;
+    border-radius: 50px;
+    text-align: center;
+    bottom: 15%;
+    left: -50px;
+    position: absolute;
 }
