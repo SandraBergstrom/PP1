@@ -95,6 +95,12 @@ header a {
     align-content: center;
 }
 
+#do-h2 {
+    font-size: 170%;
+    padding: 30px 0 0;
+    text-align: center;
+}
+
 #what-we-do img {
     border-radius: 50%;
 }
