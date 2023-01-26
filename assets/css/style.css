@@ -19,9 +19,11 @@ h1, h2 {
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #1a1618;
 }
 header a {
     text-decoration: none;
+    color: #1a1618;
 }
 .header-container {
     display: flex;
@@ -42,7 +44,15 @@ header a {
     width: auto;
     align-items: center;
     align-content: center;
+    padding: 5px 15px 5px 15px;
 }
 .navigation ul {
     list-style: none;
+}
+.navigation li:hover {
+    border: #362e32 solid 1px;
+    border-radius: 25px;
+}
+.active {
+    font-weight: 800;
 }
