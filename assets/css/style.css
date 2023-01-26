@@ -175,3 +175,15 @@ footer li {
 .social-icons {
     color: #362e32;
 }
+
+
+#photos {
+    clear: both;
+    line-height: 1px;
+    column-count: 4;
+    column-gap: 1px;
+}
+
+#photos > img {
+    width: 100%;
+}
