@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@400;500&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Nunito&family=Scada:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -51,7 +51,7 @@ header a {
 }
 .navigation li:hover {
     border: #362e32 solid 1px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .active {
     font-weight: 800;
@@ -68,18 +68,17 @@ header a {
     position: relative;
 }
 }
-#txt-hair-talk h3 {
-    font-family: Lora, sans-serif;
-    font-weight: 100;
+#txt-hair-talk h2 {
+    font-weight: 400;
     font-size: 170%;
     letter-spacing: 2px;
     color: white;
     background-color: rgb(172 64 106 / 70%);
-    width: 250px;
+    width: 290px;
     height: auto;
-    padding: 20px 20px 20px 100px;
-    border-radius: 50px;
-    text-align: center;
+    padding: 20px 30px 20px 100px;
+    border-radius: 40px;
+    text-align: right;
     bottom: 15%;
     left: -50px;
     position: absolute;
