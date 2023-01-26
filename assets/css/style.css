@@ -83,3 +83,18 @@ header a {
     left: -50px;
     position: absolute;
 }
+
+/* What we do */
+
+#what-we-do {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 60px;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+#what-we-do img {
+    border-radius: 50%;
+}
