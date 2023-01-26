@@ -30,6 +30,7 @@ header a {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    position: sticky
 }
 .logo {
     flex: 1;
@@ -96,11 +97,51 @@ header a {
 }
 
 #do-h2 {
-    font-size: 170%;
-    padding: 30px 0 0;
+    font-size: 200%;
+    padding: 50px 0 25px 0;
     text-align: center;
 }
 
 #what-we-do img {
     border-radius: 50%;
+}
+
+
+
+/* Show info when hover images*/
+
+#color-fill {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(172 64 106 / 70%);
+}
+
+#cut:hover {
+    border: 5px solid red;
+
+}
+
+/* Background 2 with floating text */
+
+#bg2-img {
+    height: 750px;
+    width: 100%;
+    background: url(../images/background2.webp) no-repeat center center;
+    background-attachment: fixed;
+}
+#bg2-outer {
+    position: relative;
+}
+#bg2-outer h2 {
+    font-weight: 400;
+    font-size: 170%;
+    letter-spacing: 2px;
+    color: white;
+    width: 328px;
+    height: auto;
+    text-align: right;
+    bottom: 50%;
+    left: 141px;
+    position: absolute;
 }
