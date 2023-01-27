@@ -37,17 +37,37 @@
         </div>
     </header>
         <section id="form-section">
+            <div id="contact-info">
+                <p>At Vibrant Cut, we are always happy to hear from our clients and potential customers. Whether you have a question, a comment, or you're ready to book an appointment, please don't hesitate to contact us.</p>
+                <p id="contact-p2">You can reach us by phone at <em>08-123 456 789</em> or by filling out the contact form. Our team will do their best to respond to your inquiry as soon as possible.</p>
+            </div>
+            <div id="form">
             <form action="#" method="post"></form>
-                <h2>Let's get you signed up!</h2>
                 <label for="fname">First Name</label>
                 <input id="fname" type="text" name="first_name" required> 
                 <label for="lname">Last Name</label>
                 <input id="lname" type="text" name="last_name" required>
-                <label for="number">Phone number</label>
-                <input id="number" type="text" name="phone_number" required>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                 <label for="email">Email Address</label>
                 <input id="email" type="email" name="email_address" required>
-
+                <!-- Checkboxes-->
+                <h3>What are you interested in?</h3>
+                <div id="checkbox"> 
+                    <input type="checkbox">
+                    <label for="">Haircut</label>
+                    <input type="checkbox">
+                    <label for="">Color</label>
+                    <input type="checkbox">
+                    <label for="">Styling</label>
+                    <input type="checkbox">
+                    <label for="">Other</label>
+                </div>
+                    <input type="submit" value="Submit">
+            </div>
+            <div>
+                <p>If you prefer to book your appointment in person, please visit us at <em>Storgatan 100, Stockholm</em>. Our salon is <em>open from 09.00 - 17.00 every day</em>.
+            </div>
         </section>
     <footer>
         <ul class="social-network">

@@ -14,6 +14,13 @@ body {
 
 /* Heading and logo */
 
+header {
+    background: white;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
 h1, h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 200;
@@ -30,7 +37,6 @@ header a {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    /*position: sticky*/
 }
 .logo {
     flex: 1;
@@ -144,7 +150,7 @@ header a {
     font-size: 170%;
     letter-spacing: 2px;
     color: white;
-    width: 328px;
+    width: 295px;
     height: auto;
     text-align: right;
     bottom: 50%;
@@ -160,15 +166,16 @@ header a {
     background: url(../images/prices-bg.webp) no-repeat center center;
     background-attachment: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 #prices-txt {
     background-color: rgba(248, 248, 248, 0.5);
-    width: 600px;
-    padding: 20px;
+    width: 575px;
+    height: auto;
+    padding: 25px;
     border-radius: 40px;
-    text-align: left;
+    text-align: justify;
     margin: 25px;
 }
 
@@ -181,8 +188,12 @@ header a {
     padding: 2px 0;
     list-style: none;
 }
-#prices p {
+.lower-txt {
     padding-top: 25px;
+
+}
+#recommendation-txt {
+    padding-bottom: 25px;
 }
 
 
@@ -205,6 +216,47 @@ header a {
 #photos > img {
     width: 100%;
 }
+
+/* contact */
+
+#form-section {
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+#form-section div {
+    width: 400px;
+    padding: 25px;
+    font-size: 110%;
+    padding: 25px;
+    border-radius: 25px;
+}
+#form {
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#form-section input {
+    width: 100%;
+    font-size: 120%;
+    border-radius: 2px;
+    border: 1px solid #1a1618;
+}
+#form h3 {
+    padding: 25px 0 0 0;
+}
+#checkbox{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
 
 /* footer */
 
