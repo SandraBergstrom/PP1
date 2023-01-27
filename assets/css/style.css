@@ -106,22 +106,6 @@ header a {
     border-radius: 50%;
 }
 
-
-
-/* Show info when hover images*/
-
-#color-fill {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: rgb(172 64 106 / 70%);
-}
-
-#cut:hover {
-    /* border: 5px solid red; */
-
-}
-
 /* Background 2 with floating text */
 
 #bg2-img {
@@ -152,10 +136,6 @@ header a {
 #gallery-txt {
     height: 50px;
     text-align: left;
-    padding: 25px 0 100px 0;
-}
-
-#gallery-txt h2 {
     padding: 25px;
 }
 
@@ -164,7 +144,7 @@ header a {
     line-height: 1px;
     column-count: 5;
     column-gap: 1px;
-    padding: 25px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 #photos > img {
