@@ -118,7 +118,7 @@ header a {
 }
 
 #cut:hover {
-    border: 5px solid red;
+    /* border: 5px solid red; */
 
 }
 
@@ -147,6 +147,30 @@ header a {
 }
 
 
+/* gallery */
+
+#gallery-txt {
+    height: 50px;
+    text-align: left;
+    padding: 25px 0 100px 0;
+}
+
+#gallery-txt h2 {
+    padding: 25px;
+}
+
+#photos {
+    clear: both;
+    line-height: 1px;
+    column-count: 5;
+    column-gap: 1px;
+    padding: 25px 0 0 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
 /* footer */
 
 footer {
@@ -174,16 +198,4 @@ footer li {
 }
 .social-icons {
     color: #362e32;
-}
-
-
-#photos {
-    clear: both;
-    line-height: 1px;
-    column-count: 4;
-    column-gap: 1px;
-}
-
-#photos > img {
-    width: 100%;
 }
