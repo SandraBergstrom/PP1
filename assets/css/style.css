@@ -51,11 +51,13 @@ header a {
     list-style: none;
 }
 .navigation li:hover {
-    border: #362e32 solid 1px;
-    border-radius: 15px;
+    font-weight: 800;
+   /* border: #362e32 solid 1px;
+    border-radius: 15px; */
 }
 .active {
     font-weight: 800;
+    font-size: 125%;
 }
 
 /* Hero image and front text */
@@ -105,6 +107,28 @@ header a {
 #what-we-do img {
     border-radius: 50%;
 }
+
+    /* what we do text */ 
+    #what-we-do-txt {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 60px;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    
+    #what-we-do-txt h3 {
+        font-size: 200%;
+        font-weight: 200;
+        padding: 0 25px 0;
+        text-align: center;
+    }
+    #what-we-do-txt p {
+        width: 300px;
+        text-align: justify;
+        padding: 0 10px;
+    }
 
 /* Background 2 with floating text */
 
