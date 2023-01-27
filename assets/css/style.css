@@ -127,7 +127,7 @@ header a {
     #what-we-do-txt p {
         width: 300px;
         text-align: justify;
-        padding: 0 10px;
+        padding: 0 15px 25px 15px;
     }
 
 /* Background 2 with floating text */
