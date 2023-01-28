@@ -315,7 +315,7 @@ footer {
 footer li {
     display: inline-block;
     width: auto;
-    align-content: center;
+    /*align-content: center;*/
     padding: 10px;
     letter-spacing: 2px;
     list-style: none;
@@ -375,6 +375,12 @@ footer li {
     }
     .contact-form {
         width: 300px;
+    }
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 75px;
+        margin: 25px 0;
     }
 }
 
