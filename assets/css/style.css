@@ -117,48 +117,6 @@ header a {
     width: 300px;
 }
 
-
-/*#what-we-do {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px 60px;
-    flex-wrap: nowrap;
-    align-content: center;
-}
-#do-h2 {
-    font-size: 200%;
-    padding: 50px 0 25px 0;
-    text-align: center;
-}
-#what-we-do img {
-    border-radius: 50%;
-}
-
-
-    /* what we do text */ 
-   /* #what-we-do-txt {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 30px 60px;
-        flex-wrap: nowrap;
-        align-content: center;
-    }
-    
-    #what-we-do-txt h3 {
-        font-size: 200%;
-        font-weight: 200;
-        padding: 0 25px 0;
-        text-align: center;
-    }
-    #what-we-do-txt p {
-        width: 300px;
-        text-align: justify;
-        padding: 0 15px 25px 15px;
-    }*/
-
-
 /* Background 2 with floating text */
 
 #bg2-img {
@@ -328,15 +286,15 @@ textarea {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: 125px;
 }
+
 footer li {
     display: inline-block;
     width: auto;
-    /*align-content: center;*/
     padding: 10px;
     letter-spacing: 2px;
     list-style: none;
@@ -348,6 +306,9 @@ footer li {
 }
 .social-icons {
     color: #362e32;
+}
+footer ul {
+    padding: 0 20px;
 }
 
 
@@ -459,25 +420,3 @@ footer li {
         width: 250px;
     }
 }
-
-/*#what-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 30px;
-}
-.what-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-#what-container img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding: 25px;
-}
-#what-container p {
-    width: 300px;
-}*/
