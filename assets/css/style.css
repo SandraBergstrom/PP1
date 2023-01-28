@@ -219,44 +219,40 @@ header a {
 
 /* contact */
 
-#form-section {
-    height: 700px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    font-size: 80%;
-}
-#form-section div {
+.contact-form {
+    margin: 150 pixels 10% 0 0;
+    color: #1a1618;
+    background-color: white;
     width: 400px;
     padding: 25px;
-    font-size: 110%;
-    padding: 25px;
-    border-radius: 25px;
 }
-#form {
-    padding: 25px;
-    border-radius: 25px;
+.contact-form h2 {
+    color: #1a1618;
+    margin-bottom: 20px;
 }
-
-#form-section input {
+.text-input {
+    background: transparent;
+    color: #1a1618;
     width: 100%;
-    font-size: 120%;
-    border-radius: 2px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     border: 1px solid #1a1618;
+    border-radius: 2px;
 }
-#form h3 {
-    padding: 25px 0 0 0;
+.text-input:hover {
+    border:rgb(172 64 106 / 100%) 2px solid;
 }
-#checkbox{
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    align-content: flex-start;
-    justify-content: space-evenly;
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-synthesis: 100%;
+    background-color: rgb(172 64 106 / 70%);
+    text-transform: uppercase;
+    color: white;
 }
-
 
 /* footer */
 
