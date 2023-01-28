@@ -226,8 +226,10 @@ header a {
     background: url(../images/contact-bg.webp) no-repeat center center;
     background-attachment: fixed;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
 }
 
 .contact-form {
@@ -240,6 +242,16 @@ header a {
 .contact-form h2 {
     color: #1a1618;
     margin-bottom: 20px;
+}
+/*.contact-form h3 {
+    font-size: 100%;
+    font-weight: 600;
+}*/
+.contact-form p {
+    margin-bottom: 20px;
+}
+#address {
+    margin-bottom: 0;
 }
 .text-input {
     background: transparent;
@@ -280,6 +292,18 @@ textarea {
     width: 100%;
     margin-top: 5px;
 }
+    /* Contact us information box */
+#form-section table {
+    width: 100%;
+    text-align: center;
+}
+.open-day {
+    text-align: right;
+}
+hr {
+    border: #1a1618 1px solid;
+}
+
 
 
 /* footer */
