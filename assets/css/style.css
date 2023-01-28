@@ -97,7 +97,28 @@ header a {
 
 /* What we do */
 
-#what-we-do {
+#what-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px;
+}
+.what-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#what-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#what-container p {
+    width: 300px;
+}
+
+
+/*#what-we-do {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -116,7 +137,7 @@ header a {
 
 
     /* what we do text */ 
-    #what-we-do-txt {
+   /* #what-we-do-txt {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -135,7 +156,7 @@ header a {
         width: 300px;
         text-align: justify;
         padding: 0 15px 25px 15px;
-    }
+    }*/
 
 
 /* Background 2 with floating text */
@@ -332,7 +353,7 @@ footer li {
 
 /* MEDIA QUERIES */ 
 
-    /* On screens that are 1200 px or less - pricelist will center */
+    /* On screens that are 1050 px or less - pricelist will center */
 @media screen and (max-width: 1200px) {
     #prices {
         justify-content: center;
@@ -382,6 +403,20 @@ footer li {
         height: 75px;
         margin: 25px 0;
     }
+    #what-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #what-div {
+        border-bottom: #eb79b2be 1px solid;
+    }
+    #what-container img {
+        padding: 50px 0 25px;
+    }
+    #what-container p{
+        border-bottom: 1px solid #db4892;
+        padding-bottom: 20px;
+    }
 }
 
 /* On screens that are 400px or less */
@@ -410,4 +445,36 @@ footer li {
     #txt-hair-talk h2{
         width: 208px;
     }
+    #what-container {
+        margin: 0px;
+    }
+    #what-container img {
+        width: 250px;
+        height: 250px;
+    }
+    #what-container p {
+        width: 250px;
+    }
 }
+
+/*#what-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px;
+}
+.what-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#what-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 25px;
+}
+#what-container p {
+    width: 300px;
+}*/
