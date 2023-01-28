@@ -376,6 +376,9 @@ footer li {
     .header-container {
         flex-direction: column;
     }
+    .logo {
+        padding: 20px;
+    }
     .navigation li <{
         padding: 0px;
     }
