@@ -247,12 +247,13 @@ hr {
     
     /* Contact form */
 .contact-form {
-    margin: 150 pixels 10% 0 0;
+    margin: 150px 10px 0 0;
     color: #1a1618;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     width: 400px;
     padding: 25px;
     margin: 25px 0;
+    border-radius: 20px;
 }
 .contact-form h2 {
     color: #1a1618;
@@ -286,7 +287,7 @@ hr {
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
-    font-synthesis: 100%;
+    font-size: 100%;
     background-color: rgb(172 64 106 / 70%);
     text-transform: uppercase;
     color: white;
