@@ -253,6 +253,11 @@ header a {
     text-transform: uppercase;
     color: white;
 }
+.send-button:hover {
+    background-color: white;
+    color: rgb(172 64 106 / 100%);
+    border: rgb(172 64 106 / 100%) 1px solid;
+}
 
 /* footer */
 
