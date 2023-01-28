@@ -12,7 +12,10 @@ body {
     color: #362e32
 }
 
-/* Heading and logo */
+
+/* HOME PAGE */
+
+/* Heading, nav and logo */
 
 header {
     background: white;
@@ -38,10 +41,12 @@ header a {
     align-items: center;
     padding: 1.5rem;
 }
+
 .logo {
     flex: 1;
     font-size: 120%";
 }
+
 .navigation {
     flex: 1;
     text-align: right;
@@ -64,17 +69,15 @@ header a {
     font-size: 125%;
 }
 
+
 /* Hero image and front text */
 
 #hero-image {
     height: 750px;
     width: 100%;
     background: url(../images/background1.webp) no-repeat center center;
+}
 
-#hero-outer {
-    position: relative;
-}
-}
 #txt-hair-talk h2 {
     font-weight: 400;
     font-size: 170%;
@@ -91,6 +94,7 @@ header a {
     position: absolute;
 }
 
+
 /* What we do */
 
 #what-we-do {
@@ -101,16 +105,15 @@ header a {
     flex-wrap: nowrap;
     align-content: center;
 }
-
 #do-h2 {
     font-size: 200%;
     padding: 50px 0 25px 0;
     text-align: center;
 }
-
 #what-we-do img {
     border-radius: 50%;
 }
+
 
     /* what we do text */ 
     #what-we-do-txt {
@@ -133,6 +136,7 @@ header a {
         text-align: justify;
         padding: 0 15px 25px 15px;
     }
+
 
 /* Background 2 with floating text */
 
@@ -158,7 +162,9 @@ header a {
     position: absolute;
 }
 
-/* prices */
+
+/* PRICES PAGE */
+
 #prices {
     width: 100%;
     height: 1000px;
@@ -168,7 +174,6 @@ header a {
     display: flex;
     justify-content: right;
 }
-
 #prices-txt {
     background-color: rgba(248, 248, 248, 0.5);
     width: 575px;
@@ -178,7 +183,6 @@ header a {
     text-align: justify;
     margin: 25px;
 }
-
 #prices h3 {
     font-weight: 200;
     font-size: 200%;
@@ -197,14 +201,13 @@ header a {
 }
 
 
-/* gallery */
+/* GALLERY PAGE */
 
 #gallery-txt {
     height: 50px;
     text-align: left;
     padding: 25px;
 }
-
 #photos {
     clear: both;
     line-height: 1px;
@@ -212,12 +215,11 @@ header a {
     column-gap: 1px;
     margin: 25px 0 0 0;
 }
-
 #photos > img {
     width: 100%;
 }
 
-/* contact */
+/* CONTACT PAGE */
 
 #form-section {
     width: 100%;
@@ -232,6 +234,19 @@ header a {
     align-content: center;
 }
 
+    /* Contact us information box */
+#form-section table {
+    width: 100%;
+    text-align: center;
+}
+.open-day {
+    text-align: right;
+}
+hr {
+    border: #1a1618 1px solid;
+}
+    
+    /* Contact form */
 .contact-form {
     margin: 150 pixels 10% 0 0;
     color: #1a1618;
@@ -243,10 +258,6 @@ header a {
     color: #1a1618;
     margin-bottom: 20px;
 }
-/*.contact-form h3 {
-    font-size: 100%;
-    font-weight: 600;
-}*/
 .contact-form p {
     margin-bottom: 20px;
 }
@@ -270,7 +281,6 @@ header a {
 .checkbox-input {
     margin: 10px 0 0px 10px;
 }
-
 .send-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -286,24 +296,11 @@ header a {
     color: rgb(172 64 106 / 100%);
     border: rgb(172 64 106 / 100%) 2px solid;
 }
-
 textarea {
     border: 1px solid #1a1618;
     width: 100%;
     margin-top: 5px;
 }
-    /* Contact us information box */
-#form-section table {
-    width: 100%;
-    text-align: center;
-}
-.open-day {
-    text-align: right;
-}
-hr {
-    border: #1a1618 1px solid;
-}
-
 
 
 /* footer */
@@ -314,8 +311,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     height: 125px;
-
-
 }
 footer li {
     display: inline-block;
@@ -326,7 +321,6 @@ footer li {
     list-style: none;
     color: #1a1618;
 }
-
 .social-network i {
     font-size: 160%;
     color: #1a1618;;
