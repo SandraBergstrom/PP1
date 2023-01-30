@@ -1,108 +1,156 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vibrant Cuts
 
-Welcome SandraBergstrom,
+Welcome to website for Vibrant Cuts! My goal is to provide a convenient and user-friendly platform for customers to view the salons services and gallery, and to strengthen the specialisation they have in hair coloring. This website is designed to be accessible to all, with an intuitive layout and easy navigation.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+With the website, you can easily view Vibrant Cuts range of hair services, read about their experience, and get contact information so you can book your next appointment with just a few clicks. The gallery showcases their talented team's work and the variety of styles they offer. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
+*** 
 
-## Gitpod Reminders
+### Existing features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Navigation bar
 
-`python3 -m http.server`
+- The navigation bar of the salon website is designed to provide a seamless user experience for our customers 
+- The navigation bar is fixed at the top to always be easily accessible and will let us skip having a "back-buttong"
+- It´s fully responsive and includes the links to Logo, Home page, Prices, Gallery and Contact page. 
 
-A blue button should appear to click: _Make Public_,
+![Navigation bar for Vibrant Cuts webpage](/assets/images/readme/nav.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+#### Home
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+##### Landing page section
 
-A blue button should appear to click: _Make Public_,
+- The landing page has a background image with a very vibrant color pink to not only catch the eye, but to also directly show the viewer the salons strength - hair coloring. 
+- text overlay with statement to show exactly what this webpage is about.  
+- We can see that we have more information below directy on landing page to make people scroll down. 
 
-Another blue button should appear to click: _Open Browser_.
+![landing page for Vibrant Cuts](/assets/images/readme/landingpage.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##### What we do section
 
-To log into the Heroku toolbelt CLI:
+- When scrolled down to the next section we see 3 images and short text about the services that Vibrant Cuts offer. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![What we do section](/assets/images/readme/landingpage2_what-we-do.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+##### Life is too short section
 
-------
+- Here we place another eye catching image with a strong statement to encourage the viewer to contact the salon. This message is placed together with with the footer 
+-  On top of the page still have the fixed header with links. 
 
-## Release History
+![Last section of Home page](/assets/images/readme/landingpage3_life.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Footer
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- Gives quick information of the phone number and social media links.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Footer](/assets/images/readme/footer.jpg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Prices
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-  Outlines the various hair and beauty services offered by the salon and the price range the client can expect.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Prices page](/assets/images/readme/prices.jpg)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Gallery
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Showcases the salon's portfolio in a scrollable page. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Gallery page](/assets/images/readme/gallery.jpg)
+![Gallery page scrolled down a bit](/assets/images/readme/gallery2.jpg)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Contact 
+- Allows customers to easily get in touch with the salon and make appointments or fill in the form to get contacted by the salon. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Contact page](/assets/images/readme/contact.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features left to implement
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Home page
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Section "What we do" should be linked to information pages about the services. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Contact page
 
-------
+- Booking system.
 
-## FAQ about the uptime script
+## Testing
+***
 
-**Why have you added this script?**
+### Functionality Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The webiste is tested in Chrome and Firefox on a PC. On phones/tablets I have tested both iOS and Android. 
 
-**How will this affect me?**
+All internal links are ok. 
+All external links work ok and open in a new browser. 
+Form in Contact page is working ok and will demand name, lname and email to be able to submit.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Bugs
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. 
+- Pink background image at the bottom om Home page is not showing in iOS.
+- Hero image a bit large (height) on table and mobile.
+- Background image 2 furthest down at Home page is a bit large (height) on table and mobile.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Fixed bugs
 
-**So….?**
+- What we do section on Home page not responsive. <br>
+*I re-made the whole section and put the content in a flexbox to have a better control over it*
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Text under images in What we do section on Home page is not placed under the associated image. <br>
+*I restructured the content and used a flexbox nested in a flexbox to get control over the text and its placements with the associated image* 
 
-**Can I opt out?**
+- Pricelist needs to be centered on smaller screens. <br>
+*Fixed with media query*
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Checkboxes in form at Contact page seem to have a strange padding on the left side that pushes it out of the actual form. <br>
+*I re-structured the form with flexbox instead and got better control over the checkboxes. Now they are a tiny bit indented which I want since it seperates the checkboxes a bit from the rest of the form. I also removed the checkbox "Other" and instead added a text area below so user can put in more information if wanted.*
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Footer not responsive <br>
+*I re-structured the footer and used a flexbox to get better control*
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
+***
 
----
+The site was deployed to Github pages. The steps where:
+1. In the github repositary, navigate to Setting tab
+2. Navigate to Pages on the left
+3. Select Master Branch in the source section drop down list. 
+4. The page will automatically be updated and give you a link where you also have the information with the latest deployment. 
 
-Happy coding!
+The link is: https://sandrabergstrom.github.io/PP1/
+
+## Credits
+***
+
+I would like to extend my gratitude to Code Institute for providing me with the education and resources needed to develop my skills in HTML and CSS. Their lessons have been instrumental in helping me understand the fundamentals of web development.
+
+Special thanks to my mentor at Code Institute, who encouraged me to dive deeper into flexbox and its capabilities. Their guidance has allowed me to bring my projects to the next level and has been invaluable in my growth as a web developer.
+
+Thank you, Code Institute and my mentor, for all your support and guidance!
+
+### Content
+
+The text for the webpage was written together with [ChatGPT](https://chat.openai.com/)
+
+Instructuions and help about flexbox I have gotten from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [W3 Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+
+Instructions and help about form I have gotten from [W3 Schools](https://www.w3schools.com/css/css_form.asp)
+
+Icons in the footer is from [Fontawesome](https://fontawesome.com/)
+
+Fonts is taken from [Google Fonts](https://fonts.google.com/)
+
+### Media
+
+The photos used throughout the webpage is coming from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
+
+## UX
+***
+
+The idea from the beginning was to create a very minimal webpage but with strong vivid colors as a contrast. This desicion was made because of several reasons:
+- To mirror the salons interior and it´s brand. They have a very light, clean and minimal interior design since they want to create a bit of a clinical feeling rather than the hairdresser down the street. 
+- To enhance their strengt in hair color. 
+- The salon is known for being THE salon when it comes to pink hair color and therefore the desicion of pink as a contrast color was made. 
+
