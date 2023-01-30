@@ -75,6 +75,7 @@ header a {
 #hero-image {
     height: 750px;
     width: 100%;
+    background-color: white;
     background: url(../images/background1.webp) no-repeat center center;
 }
 
@@ -122,6 +123,7 @@ header a {
 #bg2-img {
     height: 800px;
     width: 100%;
+    background-color: #a3336b;
     background: url(../images/background2.webp) no-repeat center center;
     background-attachment: fixed;
 }
