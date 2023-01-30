@@ -94,7 +94,7 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 #### Fixed bugs
 
 - h2 disappear from section What we do on Home page. <br>
-*Added new h2*
+*Probably disappeared when I re-made that section. Added new h2*
 
 - When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. <br>
 *Removed firs "/" in img-link. So instead of "/assets/images/..." I changed to "assets/images/...".
@@ -163,8 +163,23 @@ The photos used throughout the webpage is coming from [Unsplash](https://unsplas
 
 ## UX
 
-The idea from the beginning was to create a very minimal webpage but with strong vivid colors as a contrast. This desicion was made because of several reasons:
-- To mirror the salons interior and it´s brand. They have a very light, clean and minimal interior design since they want to create a bit of a clinical feeling rather than the hairdresser down the street. 
-- To enhance their strengt in hair color. 
-- The salon is known for being THE salon when it comes to pink hair color and therefore the desicion of pink as a contrast color was made. 
+The aim from the outset was to create a minimalist website with strong, vivid colors to provide contrast. This decision was based on several key factors:
 
+- To align with the salon's interior and branding, which features a clean and minimal design with a clinical feel, rather than a traditional hair salon atmosphere.
+- To emphasize the salon's expertise in hair coloring.
+- The salon is well-known for its expertise in pink hair color, which is reflected in the use of pink as a contrast color.
+- The website structure was designed to be clear and minimal, consistent with the overall design aesthetic.
+
+Below you can see the initial wireframes compared to the final result. 
+
+### Home page
+![Home page](assets/images/readme/Home_wf.webp)
+
+### Prices page
+![Prices page](assets/images/readme/Prices_wf.webp)
+
+### Gallery page
+![Gallery page](assets/images/readme/Gallery_wf.webp)
+
+### Contact page
+![Contact page](assets/images/readme/Contact_wf.webp)
