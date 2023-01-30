@@ -184,7 +184,7 @@ header a {
 /* GALLERY PAGE */
 
 #gallery-txt {
-    text-align: left;
+    text-align: justify;
     padding: 100px;
 }
 #photos {
@@ -241,6 +241,7 @@ hr {
 }
 .contact-form p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 #address {
     margin-bottom: 0;
@@ -336,6 +337,8 @@ footer ul {
     /* On screens that are 800px or less */
 
 @media screen and (max-width: 800px) {
+   
+   /* header*/ 
     .header-container {
         flex-direction: column;
     }
@@ -345,29 +348,14 @@ footer ul {
     .navigation li <{
         padding: 0px;
     }
-    #bg2-outer h2 {
-        left: 0;
-    }
-    #prices-txt{
-        font-size: 95%;
-    }
-    #photos {
-        column-count: 2;
-    }
-    #gallery-txt {
-        padding: 10px 25px;
-    }
+
+    /* home page */
+
     #hero-image {
         height: 680px;
     }
-    .contact-form {
-        width: 300px;
-    }
-    footer {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 75px;
-        margin: 25px 0;
+    #bg2-outer h2 {
+        left: 0;
     }
     #what-container {
         flex-direction: column;
@@ -383,27 +371,53 @@ footer ul {
         border-bottom: 1px solid #db4892;
         padding-bottom: 20px;
     }
-}
 
-/* On screens that are 400px or less */
-
-@media screen and (max-width: 400px) {
-    .header-container {
-        flex-direction: column;
-        padding: 15px 10px;
-        font-size: 80%;
-    }
-    #bg2-outer h2 {
-        left: 0;
-    }
+    /*prices*/
     #prices-txt{
         font-size: 95%;
     }
+
+    /* gallery */
+
     #photos {
         column-count: 2;
     }
     #gallery-txt {
         padding: 10px 25px;
+    }
+
+    /* contact page */ 
+
+    .contact-form {
+        width: 300px;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 75px;
+        margin: 25px 0;
+    }
+}
+
+/* On screens that are 400px or less */
+
+@media screen and (max-width: 400px) {
+    
+    /* header */
+
+    .header-container {
+        flex-direction: column;
+        padding: 15px 10px;
+        font-size: 80%;
+    }
+
+    /* home page */
+
+    #bg2-outer h2 {
+        left: 0;
     }
     #hero-image {
         height: 680px;
@@ -420,5 +434,20 @@ footer ul {
     }
     #what-container p {
         width: 250px;
+    }
+
+    /* prices */
+
+    #prices-txt{
+        font-size: 95%;
+    }
+
+    /* gallery */
+
+    #photos {
+        column-count: 2;
+    }
+    #gallery-txt {
+        padding: 10px 25px;
     }
 }

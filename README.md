@@ -88,7 +88,7 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 #### Bugs
 
 - When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. 
-- Pink background image at the bottom om Home page is not showing in iOS.
+- Pink background image and white overlay text at the bottom om Home page is not showing in iOS.
 - Hero image a bit large (height) on table and mobile.
 - Background image 2 furthest down at Home page is a bit large (height) on table and mobile.
 
@@ -108,6 +108,9 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 - Footer not responsive <br>
 *I re-structured the footer and used a flexbox to get better control*
+
+- White overlay text at the bottom om Home page is not showing in iOS.
+*Added background color pink to show when image is not working.*
 
 
 ## Deployment
