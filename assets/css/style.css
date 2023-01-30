@@ -114,6 +114,12 @@ header a {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    padding: 15px 0;
+}
+#what-we-do-h2 {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 50px;
 }
 #what-container p {
     width: 300px;
@@ -371,6 +377,9 @@ footer ul {
     }
     #what-container img {
         padding: 50px 0 25px;
+    }
+    #what-we-do-h2 {
+        margin-top: 50px;
     }
     #what-container p{
         border-bottom: 1px solid #db4892;

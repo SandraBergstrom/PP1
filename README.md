@@ -93,6 +93,9 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 #### Fixed bugs
 
+- h2 disappear from section What we do on Home page. <br>
+*Added new h2*
+
 - When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. <br>
 *Removed firs "/" in img-link. So instead of "/assets/images/..." I changed to "assets/images/...".
 
