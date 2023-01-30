@@ -5,7 +5,6 @@ Welcome to website for Vibrant Cuts! My goal is to provide a convenient and user
 With the website, you can easily view Vibrant Cuts range of hair services, read about their experience, and get contact information so you can book your next appointment with just a few clicks. The gallery showcases their talented team's work and the variety of styles they offer. 
 
 ## Features
-*** 
 
 ### Existing features
 
@@ -16,6 +15,7 @@ With the website, you can easily view Vibrant Cuts range of hair services, read 
 - It´s fully responsive and includes the links to Logo, Home page, Prices, Gallery and Contact page. 
 
 ![Navigation bar for Vibrant Cuts webpage](/assets/images/readme/nav.jpg)
+***
 
 #### Home
 
@@ -39,6 +39,7 @@ With the website, you can easily view Vibrant Cuts range of hair services, read 
 -  On top of the page still have the fixed header with links. 
 
 ![Last section of Home page](/assets/images/readme/landingpage3_life.jpg)
+
 
 #### Footer
 
@@ -75,7 +76,6 @@ With the website, you can easily view Vibrant Cuts range of hair services, read 
 - Booking system.
 
 ## Testing
-***
 
 ### Functionality Testing
 
@@ -87,12 +87,14 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 #### Bugs
 
-- When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. 
-- Pink background image and white overlay text at the bottom om Home page is not showing in iOS.
+- Pink background image at the bottom om Home page is not showing in iOS.
 - Hero image a bit large (height) on table and mobile.
 - Background image 2 furthest down at Home page is a bit large (height) on table and mobile.
 
 #### Fixed bugs
+
+- When deployed none of the images in the gallery is working in any screen or system. It workes fine in Gitpod, but not when deployed to Github. <br>
+*Removed firs "/" in img-link. So instead of "/assets/images/..." I changed to "assets/images/...".
 
 - What we do section on Home page not responsive. <br>
 *I re-made the whole section and put the content in a flexbox to have a better control over it*
@@ -122,10 +124,7 @@ All pages tested with the offical [W3 Validator](https://validator.w3.org/nu/).
 
 Checked with [W3 Validator](https://validator.w3.org/nu/)
 
-
-
 ## Deployment
-***
 
 The site was deployed to Github pages. The steps where:
 1. In the github repositary, navigate to Setting tab
@@ -136,7 +135,6 @@ The site was deployed to Github pages. The steps where:
 The link is: https://sandrabergstrom.github.io/PP1/
 
 ## Credits
-***
 
 I would like to extend my gratitude to Code Institute for providing me with the education and resources needed to develop my skills in HTML and CSS. Their lessons have been instrumental in helping me understand the fundamentals of web development.
 
@@ -161,7 +159,6 @@ Fonts is taken from [Google Fonts](https://fonts.google.com/)
 The photos used throughout the webpage is coming from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
 
 ## UX
-***
 
 The idea from the beginning was to create a very minimal webpage but with strong vivid colors as a contrast. This desicion was made because of several reasons:
 - To mirror the salons interior and it´s brand. They have a very light, clean and minimal interior design since they want to create a bit of a clinical feeling rather than the hairdresser down the street. 
