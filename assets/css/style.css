@@ -44,7 +44,8 @@ header a {
 
 .logo {
     flex: 1;
-    font-size: 120%";
+    font-size: 105%;
+    font-weight: 100;
 }
 
 .navigation {

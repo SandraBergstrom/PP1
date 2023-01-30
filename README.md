@@ -116,11 +116,11 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 #### HTML
 
-All pages tested with the offical 
-- [Home page](https://validator.w3.org/nu/#textarea)
-- [Prices page](https://validator.w3.org/nu/#textarea)
-- [Home page](https://validator.w3.org/nu/#textarea)
-- [Home page](https://validator.w3.org/nu/#textarea)
+All pages tested with the offical [W3 Validator](https://validator.w3.org/nu/).
+
+#### CSS
+
+Checked with [W3 Validator](https://validator.w3.org/nu/)
 
 
 
