@@ -155,7 +155,7 @@ header a {
     justify-content: right;
 }
 #prices-txt {
-    background-color: rgba(248, 248, 248, 0.5);
+    background-color: rgba(248, 248, 248, 0.7);
     width: 575px;
     height: auto;
     padding: 25px;
@@ -163,9 +163,9 @@ header a {
     text-align: justify;
     margin: 25px;
 }
-#prices h3 {
-    font-weight: 200;
-    font-size: 200%;
+#prices h2 {
+    /*font-weight: 200;
+    font-size: 200%;*/
     padding: 25px 0 5px;
 }
 #prices li {
@@ -182,6 +182,10 @@ header a {
 
 
 /* GALLERY PAGE */
+
+#gallery-txt h2 {
+    padding-bottom: 5px;
+}
 
 #gallery-txt {
     text-align: justify;

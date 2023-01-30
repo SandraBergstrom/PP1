@@ -112,6 +112,17 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 - White overlay text at the bottom om Home page is not showing in iOS.
 *Added background color pink to show when image is not working.*
 
+### Validator testing
+
+#### HTML
+
+All pages tested with the offical 
+- [Home page](https://validator.w3.org/nu/#textarea)
+- [Prices page](https://validator.w3.org/nu/#textarea)
+- [Home page](https://validator.w3.org/nu/#textarea)
+- [Home page](https://validator.w3.org/nu/#textarea)
+
+
 
 ## Deployment
 ***
