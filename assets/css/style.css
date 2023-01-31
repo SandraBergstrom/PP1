@@ -202,7 +202,7 @@ header a {
     padding: 100px;
 }
 #photos {
-    clear: both;
+   /* clear: both; */
     line-height: 1px;
     column-count: 5;
     column-gap: 1px;
@@ -352,7 +352,6 @@ footer ul {
 
 @media screen and (max-width: 800px) {
    
-   /* header*/ 
     .header-container {
         flex-direction: column;
     }
@@ -374,7 +373,6 @@ footer ul {
         flex-direction: column;
         align-items: center;
     }
-    }
     #what-container img {
         padding: 50px 0 25px;
         margin: 10px;
@@ -392,12 +390,11 @@ footer ul {
     }
 
     #photos {
-        column-count: 2;
+        column-count: 3;
     }
     #gallery-txt {
         padding: 10px 25px;
     }
-
 
     .contact-form {
         width: 300px;
@@ -409,6 +406,8 @@ footer ul {
         height: 75px;
         margin: 25px 0;
     }
+
+}
 
 /* On screens that are 400px or less */
 
@@ -456,5 +455,8 @@ footer ul {
     }
     #gallery-txt {
         padding: 10px 25px;
+    }
+    .contact-form {
+        width: 300px;
     }
 }
