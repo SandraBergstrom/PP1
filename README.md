@@ -88,11 +88,13 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 #### Bugs
 
-- form action is not working.
 - Pink background image at the bottom on Home page is not showing in iOS.
 
 
 #### Fixed bugs
+
+- form action is not working. <br>
+*Removed ">" at the end of the action link. *
 
 - Hero image a bit large (height) on table and mobile. <br>
 *Fixed with background-size: cover*
