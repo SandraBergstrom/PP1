@@ -4,6 +4,8 @@ Welcome to website for Vibrant Cuts! My goal is to provide a convenient and user
 
 With the website, you can easily view Vibrant Cuts range of hair services, read about their experience, and get contact information so you can book your next appointment with just a few clicks. The gallery showcases their talented team's work and the variety of styles they offer. 
 
+![Am I Responsive](assets/images/readme/am-i-responsive.jpg)
+
 ## Features
 
 ### Existing features
