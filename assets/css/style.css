@@ -115,7 +115,6 @@ header a {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    c
 }
 #what-we-do-h2 {
     font-size: 110%;
@@ -125,6 +124,9 @@ header a {
 #what-container p {
     width: 300px;
     margin-bottom: 25px;
+}
+.what-p-line {
+    border: none
 }
 
 /* Background 2 with floating text */
@@ -174,8 +176,6 @@ header a {
     margin: 25px;
 }
 #prices h2 {
-    /*font-weight: 200;
-    font-size: 200%;*/
     padding: 25px 0 5px;
 }
 #prices li {
@@ -363,14 +363,13 @@ footer ul {
         padding: 10px;
     }
 
-    /* home page */
-
     #hero-image {
         height: 600px;
     }
     #bg2-outer h2 {
         left: 0;
     }
+
     #what-container {
         flex-direction: column;
         align-items: center;
@@ -384,16 +383,13 @@ footer ul {
         margin-top: 50px;
     }
     .what-p-line {
-        border-bottom: 1px solid #db4892;
+       /* border-bottom: 1px solid #db4892; */
         padding-bottom: 20px;
     }
 
-    /*prices*/
     #prices-txt{
         font-size: 95%;
     }
-
-    /* gallery */
 
     #photos {
         column-count: 2;
@@ -402,13 +398,10 @@ footer ul {
         padding: 10px 25px;
     }
 
-    /* contact page */ 
 
     .contact-form {
         width: 300px;
     }
-
-    /* footer */
 
     footer {
         flex-direction: column;
