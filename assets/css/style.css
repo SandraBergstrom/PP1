@@ -330,9 +330,6 @@ footer ul {
 
     /* On screens that are 1050 px or less - pricelist will center */
 @media screen and (max-width: 1200px) {
-    #txt-hair-talk h2 {
-        bottom: 55%;
-    }
     #prices {
         justify-content: center;
     }
@@ -366,13 +363,10 @@ footer ul {
     /* home page */
 
     #hero-image {
-        height: 680px;
+        height: 600px;
     }
     #bg2-outer h2 {
         left: 0;
-    }
-    #txt-hair-talk h2 {
-        bottom: 28%;
     }
     #what-container {
         flex-direction: column;
@@ -438,9 +432,6 @@ footer ul {
 
     #bg2-outer h2 {
         left: 0;
-    }
-    #hero-image {
-        height: 680px;
     }
     #txt-hair-talk h2{
         width: 208px;
