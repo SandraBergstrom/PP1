@@ -150,7 +150,7 @@ header a {
     width: 295px;
     height: auto;
     text-align: right;
-    bottom: 50%;
+    bottom: 42%;
     left: 141px;
     position: absolute;
 }
@@ -412,7 +412,7 @@ footer ul {
 
 /* On screens that are 400px or less */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     
     /* header */
 
@@ -421,13 +421,13 @@ footer ul {
         padding: 15px 10px;
         font-size: 80%;
     }
-    #bg2-outer h2 {
+   #bg2-outer h2 {
         left: 0;
         text-align: left;
         margin-left: 20px;
         font-size: 110%;
         width: 200px;
-        bottom: 42%;
+        bottom: 42%; 
     }
     #txt-hair-talk h2 {
         width: 208px;
