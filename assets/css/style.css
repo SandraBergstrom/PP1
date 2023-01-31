@@ -330,6 +330,9 @@ footer ul {
 
     /* On screens that are 1050 px or less - pricelist will center */
 @media screen and (max-width: 1200px) {
+    #txt-hair-talk h2 {
+        bottom: 55%;
+    }
     #prices {
         justify-content: center;
     }
@@ -357,7 +360,7 @@ footer ul {
         padding: 20px;
     }
     .navigation li {
-        padding: 0px;
+        padding: 10px;
     }
 
     /* home page */
@@ -367,6 +370,9 @@ footer ul {
     }
     #bg2-outer h2 {
         left: 0;
+    }
+    #txt-hair-talk h2 {
+        bottom: 28%;
     }
     #what-container {
         flex-direction: column;

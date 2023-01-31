@@ -15,7 +15,6 @@ With the website, you can easily view Vibrant Cuts range of hair services, read 
 - It´s fully responsive and includes the links to Logo, Home page, Prices, Gallery and Contact page. 
 
 ![Navigation bar for Vibrant Cuts webpage](/assets/images/readme/nav.jpg)
-***
 
 #### Home
 
