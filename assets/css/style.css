@@ -77,7 +77,7 @@ header a {
     height: 750px;
     width: 100%;
     background-color: white;
-    background: url(../images/background1.webp) no-repeat center center;
+    background: url(../images/background1.jpg) no-repeat center center;
 }
 
 #txt-hair-talk h2 {
@@ -132,7 +132,7 @@ header a {
     height: 800px;
     width: 100%;
     background-color: #a3336b;
-    background: url(../images/background2.webp) no-repeat center center;
+    background: url(../images/background2.jpg) no-repeat center center;
     background-attachment: fixed;
 }
 #bg2-outer {
