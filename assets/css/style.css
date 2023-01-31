@@ -78,6 +78,7 @@ header a {
     width: 100%;
     background-color: white;
     background: url(../images/background1.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #txt-hair-talk h2 {
@@ -134,6 +135,7 @@ header a {
     background-color: #a3336b;
     background: url(../images/background2.jpg) no-repeat center center;
     background-attachment: fixed;
+    background-size: cover;
 }
 #bg2-outer {
     position: relative;
@@ -414,7 +416,6 @@ footer ul {
         height: 75px;
         margin: 25px 0;
     }
-}
 
 /* On screens that are 400px or less */
 
@@ -427,13 +428,15 @@ footer ul {
         padding: 15px 10px;
         font-size: 80%;
     }
-
-    /* home page */
-
     #bg2-outer h2 {
         left: 0;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 110%;
+        width: 200px;
+        bottom: 42%;
     }
-    #txt-hair-talk h2{
+    #txt-hair-talk h2 {
         width: 208px;
     }
     #what-container {

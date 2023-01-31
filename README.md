@@ -126,6 +126,10 @@ All pages tested with the offical [W3 Validator](https://validator.w3.org/nu/).
 
 Checked with [W3 Validator](https://validator.w3.org/nu/)
 
+### Lighthouse test
+
+![Test result Lighthouse](assets/images/readme/lighthouse-test.jpg)
+
 ## Deployment
 
 The site was deployed to Github pages. The steps where:
