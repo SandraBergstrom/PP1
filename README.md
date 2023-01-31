@@ -88,11 +88,17 @@ Form in Contact page is working ok and will demand name, lname and email to be a
 
 #### Bugs
 
-- Pink background image at the bottom om Home page is not showing in iOS.
-- Hero image a bit large (height) on table and mobile.
-- Background image 2 furthest down at Home page is a bit large (height) on table and mobile.
+- form action is not working.
+- Pink background image at the bottom on Home page is not showing in iOS.
+
 
 #### Fixed bugs
+
+- Hero image a bit large (height) on table and mobile. <br>
+*Fixed with background-size: cover*
+
+- Background image 2 furthest down at Home page is a bit large (height) on table and mobile. <br>
+*Fixed with background-size: cover*
 
 - h2 disappear from section What we do on Home page. <br>
 *Probably disappeared when I re-made that section. Added new h2*
